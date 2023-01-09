@@ -7,9 +7,11 @@ module.exports = {
     },
 
     output: {
-        fileName: '[name].bundle.js',
+        filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist')
     },
+
+    mode: 'development',
 
     module: {
         rules: [
